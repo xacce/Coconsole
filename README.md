@@ -1,5 +1,6 @@
 Implementation of a console for Unity. The vast majority of functionality uses Roslyn codegen.
 - Autocomplete is supported for functions and enum arguments.
+- For basic operation, importing Samples/Core is required.
 
 Two other samples
 Coconsole - the actual console window. ~ Open - Esc close
