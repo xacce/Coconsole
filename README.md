@@ -9,8 +9,8 @@ CoconsoleButtons - an additional window that simply renders buttons for commands
 To create your own functions, simply create a static class with the `[Coco]` attribute and methods with the `[Cmd]` attribute.
 
 ```c#
- [Coco]
 using Coconsole;
+[Coco]
 public static class CoconsoleDebugCommands
 {
     public enum Test
