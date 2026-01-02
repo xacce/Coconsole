@@ -1,0 +1,189 @@
+:root {
+}
+
+.suggestions-container .unity-label.highlight {
+    background-color: rgba(118, 85, 85, 0.65);
+}
+
+#Coconsole .unity-scroller__low-button {
+    display: none;
+}
+
+#Coconsole .unity-scroller__high-button {
+    display: none;
+}
+
+#Coconsole .unity-base-slider__tracker {
+    display: flex;
+    background-color: rgb(231, 16, 16);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    visibility: hidden;
+}
+
+#Coconsole .unity-base-slider__dragger {
+    display: flex;
+    background-color: rgb(34, 23, 10);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left-color: rgb(26, 19, 10);
+    border-right-color: rgb(26, 19, 10);
+    border-top-color: rgb(26, 19, 10);
+    border-bottom-color: rgb(26, 19, 10);
+    width: 6px;
+    min-height: 35px;
+}
+
+#Coconsole .unity-base-slider {
+    display: flex;
+}
+
+#Coconsole .unity-text-field__input {
+    background-color: rgba(106, 82, 49, 0.78);
+    color: rgb(217, 217, 217);
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 18px;
+}
+
+#Coconsole .unity-text-field {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    --unity-cursor-color: rgb(255, 255, 255);
+}
+
+#Coconsole .unity-base-text-field__input {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(60, 43, 20);
+    border-right-color: rgb(60, 43, 20);
+    border-top-color: rgb(60, 43, 20);
+    border-bottom-color: rgb(60, 43, 20);
+}
+
+.coconsole-suggestion {
+    color: rgb(219, 219, 219);
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.coconsole-suggestions {
+    position: absolute;
+    background-color: rgba(106, 82, 49, 0.93);
+    border-left-color: rgb(60, 43, 20);
+    border-right-color: rgb(60, 43, 20);
+    border-top-color: rgb(60, 43, 20);
+    border-bottom-color: rgb(60, 43, 20);
+    border-top-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    font-size: 16px;
+    height: auto;
+    bottom: 0;
+    max-height: 500px;
+}
+
+.coconsole-suggestion.highlight {
+    background-color: rgb(128, 99, 60);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(171, 171, 171);
+}
+
+.coconsole-suggestion:hover {
+    background-color: rgb(128, 99, 60);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(171, 171, 171);
+}
+
+#Suggestions .unity-scroll-view__content-container {
+    flex-direction: column-reverse;
+}
+
+#HistoryWrapper .unity-label {
+    color: rgb(204, 204, 204);
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.historyWrapper {
+    background-color: rgba(75, 55, 28, 0.78);
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    opacity: 1;
+    flex-grow: 1;
+}
+
+.perfomant-scroll-view__scroller {
+    width: 25px;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.perfomant-scroll-view {
+    flex-direction: row;
+    flex-grow: 1;
+    align-content: stretch;
+    padding-bottom: 25px;
+}
+
+.perfomant-scroll-view__content-container {
+    flex-grow: 1;
+}

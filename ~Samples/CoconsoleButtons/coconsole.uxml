@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Coconsole/Samples/CoconsoleButtons/coconsole.uss?fileID=7433441132597879392&amp;guid=e99dd404bd8d4ebeb58075faa4904354&amp;type=3#coconsole" />
+    <ui:VisualElement name="Coconsole" />
+</ui:UXML>

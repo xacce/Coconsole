@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/coconsole.uss?fileID=7433441132597879392&amp;guid=2b0f130e9c868f3419b0525ebe6722ac&amp;type=3#coconsole" />
+    <ui:VisualElement name="Coconsole" style="flex-grow: 1; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; flex-shrink: 0; height: 50%; min-height: 50%; max-height: 50%; display: none;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:VisualElement name="HistoryWrapper" class="historyWrapper" style="flex-grow: 1;" />
+            <ui:ScrollView name="Suggestions" class="coconsole-suggestions" style="max-height: 90%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Input" style="flex-grow: 0; flex-shrink: 0;">
+            <ui:TextField label="Text Field" placeholder-text="filler text" style="display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

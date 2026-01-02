@@ -1,0 +1,39 @@
+{
+  "name": "coconsole",
+  "displayName": "Coconsole",
+  "version": "0.0.1",
+  "unity": "2022.2",
+  "description": "",
+  "dependencies": {
+    "com.unity.collections": "2.5.2",
+    "com.unity.mathematics": "1.3.2",
+    "com.unity.burst": "1.8.18"
+  },
+  "samples": [
+    {
+      "displayName": "Coconsole core",
+      "description": "Partial code for roslyn code gen",
+      "path": "~Samples/Core"
+    },
+    {
+      "displayName": "Coconsole console",
+      "description": "Main console for Coconsole",
+      "path": "~Samples/Coconsole"
+    },
+    {
+      "displayName": "Coconsole buttons",
+      "description": "Buttons for Coconsole",
+      "path": "~Samples/CoconsoleButtons"
+    },
+    {
+      "displayName": "Coconsole debug",
+      "description": "All supported coconsole commands arguments",
+      "path": "~Samples/Debug"
+    },
+    {
+      "displayName": "Coconsole spam",
+      "description": "Console.log spam ",
+      "path": "~Samples/SpamMono"
+    }
+  ]
+}
