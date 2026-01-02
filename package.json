@@ -1,7 +1,7 @@
 {
   "name": "coconsole",
   "displayName": "Coconsole",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "unity": "2022.2",
   "description": "",
   "dependencies": {
@@ -10,11 +10,6 @@
     "com.unity.burst": "1.8.18"
   },
   "samples": [
-    {
-      "displayName": "Coconsole core",
-      "description": "Partial code for roslyn code gen",
-      "path": "Samples~/Core"
-    },
     {
       "displayName": "Coconsole console",
       "description": "Main console for Coconsole",
