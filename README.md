@@ -2,6 +2,15 @@ Implementation of a console for Unity. The vast majority of functionality uses R
 - Autocomplete is supported for functions and enum arguments.
 - For basic operation, importing Samples/Core is required.
 
+## Install
+- Install with package manager (via git url https://github.com/xacce/Coconsole.git)
+- Import Samples/Core 
+- Import Samples/Coconsole 
+- Import Samples/CoconsoleButtons
+- Check panel settings for coconsole/coconsolebuttons and provide default themefile
+- Import sample prefabs to scene
+
+
 Two other samples
 Coconsole - the actual console window. ~ Open - Esc close
 CoconsoleButtons - an additional window that simply renders buttons for commands without arguments
